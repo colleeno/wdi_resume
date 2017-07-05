@@ -14,14 +14,46 @@ body {
   background: linear-gradient(
       rgba(77, 77, 77, 0.3),
       rgba(77, 77, 77, 0.3)
-    ), url('backgroundimg.jpg');
-  /*background: url('screen1.jpg');*/
+    ), url('../images/backgroundimg.jpg');
   background-size: 100% auto;
-  /*background-size: cover;*/
 }
 
 a {
   text-decoration: none;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+nav ul {
+  text-align: right;
+  padding: 15px;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+}
+
+nav a {
+  color: #4D4D4D;
+}
+
+nav a:hover {
+  border-bottom: 1px solid #ff8080;
+}
+
+.nav-selected, .secondary-color, h3  {
+  color: #ff8080;
+}
+
+.headline {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px 30px 20px;
 }
 
 h1 {
@@ -45,39 +77,6 @@ h3 {
   font-weight: 300;
 }
 
-nav {
-  background-color: #ffffff;
-}
-
-nav ul {
-  text-align: right;
-  padding: 0 10px 0 0;
-}
-
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  padding: 0 10px;
-}
-
-nav a {
-  color: #4D4D4D;
-}
-
-nav a:hover {
-  border-bottom: 1px solid #ff8080;
-}
-
-.nav-selected, .secondary-color, h3  {
-  color: #ff8080;
-}
-
-header {
-  color: #ffffff;
-  text-align: center;
-  padding: 30px 20px 30px 20px;
-  /*border-bottom: 4px solid #ff8080;*/
-}
 
 main {
   display: flex;
@@ -99,6 +98,12 @@ section div {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+section div:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
 }
 
 .fa {
@@ -113,9 +118,6 @@ section div {
 
   section {
     flex-direction: column;
-  }
-
-  section {
     margin-top: 0;
   }
 
