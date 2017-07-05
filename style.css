@@ -11,7 +11,13 @@ body {
   justify-content: space-between;
   font-family: 'lato', sans-serif;
   font-weight: 300;
-
+  background: linear-gradient(
+      rgba(77, 77, 77, 0.3),
+      rgba(77, 77, 77, 0.3)
+    ), url('backgroundimg.jpg');
+  /*background: url('screen1.jpg');*/
+  background-size: 100% auto;
+  /*background-size: cover;*/
 }
 
 a {
@@ -19,8 +25,9 @@ a {
 }
 
 h1 {
-  font-family: 'lato', sans-serif;
-  font-weight: 300;
+  text-shadow: none;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
   font-size: 75px;
   margin: 20px 0 5px;
 }
@@ -31,7 +38,6 @@ h2 {
   font-family: 'lato', sans-serif;
   font-weight: 300;
   margin-top: 0px;
-  color: #DFDCE3;
 }
 
 h3 {
@@ -62,16 +68,15 @@ nav a:hover {
   border-bottom: 1px solid #ff8080;
 }
 
-.nav-selected {
+.nav-selected, .secondary-color, h3  {
   color: #ff8080;
 }
 
 header {
-  background-color: #4D4D4D;
   color: #ffffff;
   text-align: center;
-  padding: 100px 20px 20px;
-  border-bottom: 4px solid #ff8080;
+  padding: 30px 20px 30px 20px;
+  /*border-bottom: 4px solid #ff8080;*/
 }
 
 main {
@@ -82,21 +87,18 @@ main {
 section {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 40px 20px 20px 20px;
     color: #4D4D4D;
 }
 
 section div {
   width: 250px;
-  margin: 30px 0;
-  padding: 30px 10px 30px 10px;
+  margin: 30px 20px 0 20px;
+  padding: 40px 10px;
   text-align: center;
   cursor: pointer;
-}
-
-.experience {
-  border-left: 2px solid #ffcccc;
-  border-right: 2px solid #ffcccc;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
 }
 
 .fa {
@@ -105,12 +107,20 @@ section div {
 
 @media screen and (max-width: 600px){
 
+  body {
+    background-size: cover;
+  }
+
   section {
     flex-direction: column;
   }
 
+  section {
+    margin-top: 0;
+  }
+
   section div {
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 30px 0 20px 0;
   }
 
@@ -121,10 +131,4 @@ section div {
 
   h1 {
     font-size: 36px;
-  }
-
-  .experience {
-    border: none;
-    border-top: 2px solid #ffcccc;
-    border-bottom: 2px solid #ffcccc;
   }
