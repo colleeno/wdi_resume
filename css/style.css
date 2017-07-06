@@ -16,6 +16,7 @@ body {
       rgba(77, 77, 77, 0.3)
     ), url('../images/backgroundimg.jpg');
   background-size: 100% auto;
+  font-size: 16px;
 }
 
 a {
@@ -134,3 +135,4 @@ section div:hover {
   h1 {
     font-size: 36px;
   }
+}
