@@ -15,7 +15,8 @@ body {
       rgba(77, 77, 77, 0.3),
       rgba(77, 77, 77, 0.3)
     ), url('../images/backgroundimg.jpg');
-  background-size: 100% auto;
+  /*background-size: 100% auto;*/
+  background-size: cover;
   font-size: 16px;
 }
 
@@ -109,6 +110,17 @@ section div:hover {
 
 .fa {
   font-size: 30px;
+}
+
+@media screen and (max-width: 1110px) {
+
+  html {
+    height: 100%;
+  }
+  body {
+    /*background-size: 1110px auto;*/
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 600px){
