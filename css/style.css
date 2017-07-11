@@ -33,14 +33,6 @@ body {
   background-size: cover;
 }
 
-/*body .background-img {
-  background: linear-gradient(
-      rgba(77, 77, 77, 0.3),
-      rgba(77, 77, 77, 0.3)
-    ), url('../images/backgroundimg.jpg');
-  background-size: cover;
-}*/
-
 a {
   text-decoration: none;
 }
@@ -113,7 +105,6 @@ main {
     display: flex;
     justify-content: center;
     margin: 40px 20px 20px 20px;
-    color: #4D4D4D;
 }
 
 .home-content div {
@@ -125,6 +116,7 @@ main {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: #4D4D4D;
 }
 
 .home-content div:hover {
