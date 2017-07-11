@@ -20,7 +20,7 @@ body {
 }
 .pages-body {
   min-height: 100vh;
-  margin: 0 auto;display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -131,10 +131,10 @@ main {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   width: 80%;
   border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px
 }
 
 .fa {
@@ -147,7 +147,6 @@ main {
     height: 100%;
   }
   body {
-    /*background-size: 1110px auto;*/
     background-size: cover;
   }
 }
@@ -162,12 +161,12 @@ main {
     background-size: cover;
   }
 
-  section {
+  .home-content {
     flex-direction: column;
     margin-top: 0;
   }
 
-  section div {
+  .home-content div {
     margin: 20px 0 0 0;
     padding: 30px 0 20px 0;
   }
@@ -184,4 +183,5 @@ main {
   h1 {
     font-size: 36px;
   }
+
 }
