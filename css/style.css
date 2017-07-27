@@ -247,4 +247,7 @@ h3 {
   h2 {
     margin-bottom: 0px;
   }
+  .project-sample img {
+    max-height: 30px;
+  }
 }
