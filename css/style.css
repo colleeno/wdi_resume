@@ -141,7 +141,7 @@ nav ul li {
   padding: 0 10px;
 }
 
-nav a:hover {
+nav a:hover, h3 a:hover {
   border-bottom: 1px solid #ff8080;
 }
 
@@ -160,6 +160,7 @@ a {
   text-decoration: none;
   color: #4D4D4D;
 }
+
 
 h1 {
   text-shadow: none;
