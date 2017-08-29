@@ -1,7 +1,9 @@
-$('.hamburger').on('click', function () {
-  $('.nav-links').toggleClass('show-nav')
-})
-
 $(document).ready(function () {
-    $('.divider').slideDown('slow', 'linear')
+
+    $('.divider').slideDown(700, 'linear')
+
+    $('.hamburger').on('click', function () {
+      $('.nav-links').toggleClass('show-nav')
+    })
+
 });
