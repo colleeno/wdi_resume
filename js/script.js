@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('.divider').slideDown(700, 'linear')
+    $('.divider').slideDown(800, 'linear')
 
     $('.hamburger').on('click', function () {
       $('.nav-links').toggleClass('show-nav')
