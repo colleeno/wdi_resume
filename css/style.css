@@ -114,7 +114,7 @@ main {
   transform: scale(1.01);
 }
 
-.experience, .about {
+.experience {
   text-align: left;
   padding: 0 5%;
 }
@@ -123,6 +123,7 @@ main {
   padding-bottom: 10px;
   border-bottom: 1px solid #ff8080;
 }
+
 
 .subhead {
   display: flex;
