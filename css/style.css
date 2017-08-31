@@ -114,7 +114,7 @@ main {
   transform: scale(1.01);
 }
 
-.experience {
+.experience, .about {
   text-align: left;
   padding: 0 5%;
 }
