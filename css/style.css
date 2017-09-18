@@ -74,6 +74,10 @@ main {
   transform: scale(1.01);
 }
 
+.about a:hover {
+  border-bottom: 1px solid #ff8080;
+}
+
 .pages-wrapper {
   flex-grow: 1;
   display: flex;
