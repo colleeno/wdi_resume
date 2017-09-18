@@ -117,17 +117,17 @@ main {
 .project-sample img {
   border-radius: 5px;
   margin: 0 auto 20px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
   width: 90%;
   height: auto;
-  -webkit-transition: 0.2s ease-in-out;
-  -ms-transition: 0.2s ease-in-out;
-  -moz-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .project-sample img:hover {
-  box-shadow: 0 10px 18px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3);
   transform: scale(1.001);
 }
 
