@@ -281,6 +281,15 @@ p {
   margin: 5px 0;
 }
 
+.experience .experience-headline {
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 0;
+  padding: 3% 0 0;
+  border-bottom: none;
+  font-family: 'Roboto Slab', serif;
+}
+
 /********** LARGER SCREENS **********/
 
 @media screen and (max-width: 1110px) {
@@ -404,6 +413,15 @@ p {
 
   .samples-subhead {
     font-size: 18px;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .mobile-subhead {
+    display: block;
+    font-size: 20px;
   }
 
 }
