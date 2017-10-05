@@ -144,8 +144,14 @@ main {
 .project-sample h2 {
   display: inline-block;
   padding: 0 10px;
-  margin: 20px 0 0 0;
+  margin: 35px 0 0 0;
   font-weight: 400;
+  font-size: 26px;
+}
+
+.project-sample p {
+  width: 90%;
+  margin: 1em auto;
 }
 
 .project-sample img {
@@ -282,7 +288,8 @@ p {
 
 .samples-subhead {
   font-size: 19px;
-  margin: 5px 0;
+  margin: 5px auto;
+  width: 90%;
 }
 
 .experience .experience-headline {
@@ -407,7 +414,7 @@ p {
     padding: 0 5px;
   }
 
-  .project-sample img {
+  .project-sample img, .project-sample p {
     width: 100%;
   }
 
@@ -440,4 +447,4 @@ p {
     display: block;
   }
 
-}  
+}
