@@ -165,6 +165,10 @@ main {
   transform: scale(1.001);
 }
 
+.mobile-sample {
+  display: none;
+}
+
 .experience {
   text-align: left;
   padding: 0 5%;
@@ -425,3 +429,15 @@ p {
   }
 
 }
+
+@media screen and (max-width: 420px){
+
+  .desktop-sample {
+    display: none;
+  }
+
+  .mobile-sample {
+    display: block;
+  }
+
+}  
