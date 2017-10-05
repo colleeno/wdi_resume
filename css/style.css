@@ -405,6 +405,10 @@ p {
     align-items: center;
   }
 
+  .about-img {
+    width: 60%;
+  }
+
   .about-info {
     text-align: center;
     width: 90%;
